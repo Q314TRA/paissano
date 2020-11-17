@@ -8,7 +8,7 @@ class FooterTwo extends Component{
                 <div className="container">
                     <div className="row footer-content">
                         <div className="col-sm-4">
-                            <Fade top cascade>
+                            {/* <Fade top cascade>
                                 <ul className="list_style">
                                     {
                                         jhonData.socialLinks.map(item =>{
@@ -20,11 +20,11 @@ class FooterTwo extends Component{
                                         })
                                     }
                                 </ul>
-                            </Fade>
+                            </Fade> */}
+                            <p>© 2020 PAISSANO - All Rights Reserved</p>
                         </div>
                         <div className="col-sm-8 text-right">
-                            <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                            <p>© 2020 Blazethemez - All Rights Reserved</p>
+                            <h6 style={{marginBottom:"0"}} ><a href="mailto:contacto@grupopineal.com">Trabaja con nosotros</a></h6>
                         </div>
                     </div>
                 </div>

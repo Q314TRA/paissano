@@ -31,7 +31,10 @@ class ServiceTwo extends Component{
                             </div>
                         </div>
                         <div className="col-lg-7">
-                            <div className="tab-content" id="myTabContent">
+                        <div className="service_img">
+                                        <img src={require ('../image/service.svg')} alt=""/>
+                                    </div>
+                            {/* <div className="tab-content" id="myTabContent">
                                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div className="service_img">
                                         <img src={require ('../image/service.svg')} alt=""/>
@@ -47,7 +50,7 @@ class ServiceTwo extends Component{
                                         <img src={require ('../image/service.svg')} alt=""/>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

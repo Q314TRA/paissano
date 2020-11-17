@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // logo_blanco.png
 import logo_blanco from '../../image/paissano/logo_blanco.png'
+import logo from '../../image/paissano/logo.png'
 
 
 class NavbarThree extends Component {
@@ -26,7 +27,7 @@ class NavbarThree extends Component {
               <div className="col-sm-9 col-7">
                 <div className="menu_left">
                   <a href="/#" className="logo">
-                    <img src={logo_blanco} alt="" width="60" height="60" />
+                    <img src={logo} alt="" style={{ width: "auto", height: "90px" }} />
                   </a>
                 </div>
               </div>

@@ -48,10 +48,10 @@ class Skill extends Component {
                 <div className="container">
                     <Reveal effect="fadeInUp">
                         <div className="row">
-                            <CounterItem CText='200' pdescription='Total Projects' icon='briefcase'/>
-                            <CounterItem CText='120' pdescription='Happy Clients' icon='happy'/>
-                            <CounterItem CText='4' pdescription='Years of Experience' icon='calendar'/>
-                            <CounterItem CText='10' pdescription='Award Won' icon='trophy'/>
+                            <CounterItem CText='4' pdescription='Municipios' icon='map'/>
+                            <CounterItem CText='50' pdescription='Familias' icon='profile-male'/>
+                            <CounterItem CText='10000' pdescription='Hectareas' icon='puzzle'/>
+                            <CounterItem CText='3' pdescription='Fundaciones' icon='gears'/>
                         </div>
                     </Reveal>
                 </div>

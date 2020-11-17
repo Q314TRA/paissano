@@ -177,7 +177,7 @@
     .see_btn {
       opacity: 0;
       transition: all 0.2s linear;
-      color: #fff;
+      color: #3A9A50;
       font-family: "Poppins", sans-serif;
     }
     h6 {
@@ -186,7 +186,7 @@
       letter-spacing: 0.56px;
       .br {
         width: 40px;
-        background: #fff;
+        background: #F8C63E;
         height: 2px;
         vertical-align: middle;
         margin-right: 15px;
@@ -218,7 +218,7 @@
       font-size: 18px;
       line-height: 28px;
       line-height: 28px;
-      color: #fff;
+      color: #3A9A50;
       font-weight: 600;
       position: relative;
       z-index: 1;
@@ -238,7 +238,7 @@
           position: absolute;
           width: 2px;
           height: 10px;
-          background: #fff;
+          background: #3A9A50;
           right: 0;
         }
         &:before {
@@ -253,7 +253,7 @@
           position: relative;
           height: 2px;
           width: 0;
-          background: #fff;
+          background: #3A9A50;
           display: inline-block;
           vertical-align: top;
           transition: width 0.3s linear;
@@ -398,7 +398,7 @@
   &.contact-area {
     padding: 0px;
     h4 {
-      color: #fff;
+      color: #3A9A50;
     }
     .contact_info ul {
       @media (max-width: 991px) {
@@ -407,7 +407,7 @@
       .item .media {
         .media-body a,
         i {
-          color: #fff;
+          color: #3A9A50;
         }
       }
     }
@@ -417,17 +417,17 @@
         border: 0px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.5);
         padding-left: 0;
-        color: #fff;
+        color: #333;
         &::placeholder {
-          color: #fff;
+          color: #555;
         }
       }
       .send_btn {
-        border-color: #fff;
-        color: #fff;
+        border-color: #3A9A50;
+        color: #3A9A50;
         font-family: "Poppins", sans-serif;
         &:hover {
-          border-color: #040c2c;
+          border-color: #3A9A50;
         }
       }
     }
@@ -542,7 +542,8 @@
       a {
         display: block;
         span {
-          background: rgba(247, 228, 228, 0.3) !important;
+          // background: rgba(248, 198, 62, 0.3) !important;
+          background: rgba(58, 154, 80, 0.3) !important;
           transition: all 0.2s linear;
           left: 25%;
           &.fp-sr-only {
@@ -551,7 +552,7 @@
             font-size: 13px;
             text-transform: uppercase;
             font-weight: 600;
-            color: #fff;
+            color: #3A9A50;
             width: auto;
             height: auto;
             margin-left: 0 !important;
@@ -563,7 +564,7 @@
         &.active,
         &:hover {
           span {
-            background: rgba(255, 255, 255, 0.8) !important;
+            background: rgba(248, 198, 62, 0.8) !important;
             &.fp-sr-only {
               left: 35px;
               opacity: 1;

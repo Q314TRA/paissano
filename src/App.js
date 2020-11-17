@@ -8,6 +8,7 @@ import { Home4 } from "./Home4";
 import { Home5 } from "./Home5";
 import { Home6 } from "./Home6";
 import { Homefrelencer } from "./Home-frelencer";
+import { Impacto } from "./Impacto";
 import { Creativecarousel } from "./Creative-carousel";
 import { NotFound } from "./404";
 
@@ -18,6 +19,11 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Creativecarousel} />
+            
+            <Route path="/nosotros" component={Homefrelencer} />
+            <Route path="/impacto" component={Impacto} />
+            
+            
             {/* <Route path="/Home2" component={Home2} />
             <Route path="/Home3" component={Home3} />
             <Route path="/Home4" component={Home4} />

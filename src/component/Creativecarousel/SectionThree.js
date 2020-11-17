@@ -18,7 +18,7 @@ class SectionThree extends Component {
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      Consume salud
+                      Consume bienestar
                     </SplitText>
                   </h2>
                   <p>

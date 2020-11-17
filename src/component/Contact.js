@@ -4,9 +4,11 @@ import Form from "./Form";
 
 class Contact extends Component {
   render() {
+    const { className } = this.props;
+
     let jhonData = this.props.jhonData;
     return (
-      <section className="contact-area" id="contact">
+      <section className={`contact-area ${className}`} id="contact">
         <div className="container">
           <div className="row row-reverse">
             {jhonData.contact &&
