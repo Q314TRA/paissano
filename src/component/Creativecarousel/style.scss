@@ -1,4 +1,60 @@
 /*========= header_area_one css ==========*/
+.header_area_one{
+  position: relative;
+  @media (max-width: 767px) {
+    background-color: white;
+    box-shadow: 0px 2px 35px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .unset-position-sm{
+    @media (max-width: 767px) {
+      position: unset
+    }
+  }
+
+  .logo{
+    img{
+      width: auto;
+       height: 90px; 
+       max-width: unset;
+      @media (max-width: 767px) {
+        height: 60px; 
+        top: 3px;
+        position: absolute;
+      }
+    }
+  }
+
+  .burger_menu{
+    > span{
+      @media (max-width: 991px) {
+        color: #3A9A50;
+      }
+    }
+
+    #nav-icon2{
+      height: 21px;
+      span{
+        @media (max-width: 991px) {
+          background-color: #3A9A50;
+        }
+      }
+    }
+  }
+}
+
+
+.section_bg{
+  background: linear-gradient( 90deg, rgb(255,255,255) 43%, rgb(60,120,59) 100%);
+  @media (max-width: 991px) {
+    background: linear-gradient( 180deg, rgb(255,255,255) 60%, rgb(60,120,59) 100%);
+  }
+  @media (max-width: 767px) {
+    background: none;
+  }
+}
+
+
 .scroll_page .header_area_one {
   position: absolute;
   width: 100%;

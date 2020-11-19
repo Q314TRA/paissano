@@ -10,7 +10,7 @@ class TestimonialTwo extends Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="testimonial_img">
-                                <img src={require('../../image/testimonial.svg')} alt="" />
+                                <img src={require('../../image/paissano/marcha_3.png')} alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -20,8 +20,8 @@ class TestimonialTwo extends Component {
                                 {/* <TestimonialSliderTwo/> */}
                                 
 
-                                <a href="https://forms.gle/Akacs7HydeYtQHZ17" className="link_register" data-text="Registrate en el carnabal">
-                                    Registrate en el carnabal
+                                <a href="https://forms.gle/Akacs7HydeYtQHZ17" className="link_register" data-text="Registrate en el carnaval">
+                                    Registrate en el carnaval
                                     <span className="arrow">
                                         <span className="line"></span>
                                     </span>

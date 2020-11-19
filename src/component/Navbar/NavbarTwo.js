@@ -24,9 +24,9 @@ class NavbarTwo extends Component {
             <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
                 <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
                     <div className={`container ${mContainer}`}>
-                        <a className="navbar-brand logo_h" href="index.html">
-                            <img style={{ width: "auto", height: "90px" }} src={require("../../image/paissano/logo.png")} alt="" />
-                            <img style={{ width: "auto", height: "90px" }} src={require("../../image/paissano/logo.png")} alt="" />
+                        <a className="navbar-brand logo_h" href="https://paissano.app/">
+                            <img style={{ width: "auto", height: "90px", maxWidth: "unset" }} src={require("../../image/paissano/logo.png")} alt="" />
+                            <img style={{ width: "auto", height: "90px", maxWidth: "unset" }} src={require("../../image/paissano/logo.png")} alt="" />
                         </a>
                         <a href="./" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

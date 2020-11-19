@@ -11,7 +11,7 @@ class ClientslogoTwo extends Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="clients_content_two">
-                                <SectionTitleTwo stitle="Carnabal" btitle="Acompañanos y hagamos historia" />
+                                <SectionTitleTwo stitle="Carnaval" btitle="Acompañanos y hagamos historia" />
                                 {/* <h2 className="bold">
                                     <SplitText charPoses={charPoses}>
                                         
@@ -24,8 +24,9 @@ class ClientslogoTwo extends Component {
 
                                 <p>
                                     El cannabis es amor, y el amor es un derecho de todos; <br/> 
-                                    este año trascenderemos como seres y comunidad, seremos mas que una marcha; este año 
-                                    los esfuerzos de todo el colectivo, convergeran en el primer CARNABAL CANNABICO DE COLOMBIA. 
+                                    {/* Este año trascenderemos como seres y comunidad, seremos mas que una marcha; este año 
+                                    los esfuerzos de todo el colectivo, convergeran en el primer CARNAVAL CANNABICO DE COLOMBIA.  */}
+                                    ¡Éste año marcaremos historia! 
                                     <br/>
                                     <br/>
                                     Unete a nosotros este <span style={{color:"#3A9A50"}}>12 de diciembre al media dia</span> en el <span style={{color:"#3A9A50"}}>Teatro pablo tobón uribe</span> y hagamos historia.

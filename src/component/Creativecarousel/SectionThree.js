@@ -24,11 +24,12 @@ class SectionThree extends Component {
                   <p>
                     {/* Trazamos todo el proceso de cultivo, para brindar, la mayor tranquilidad posible sobre tu planta. */}
                     
-                    Brindamos acceso a un equipo de doctores especialistas, expertos en tratamientos con cannabis.
+                    {/* Brindamos acceso a un equipo de doctores especialistas, expertos en tratamientos con cannabis. */}
+                    Brindamos acceso a un equipo de médicos expertos en tratamientos con cannabis y seguimiento a los consumidores.
 
                     {/* Trazamos todo el proceso de cultivo, para brindar, la mayor tranquilidad posible sobre tu planta. */}
                   </p>
-                  <a href="#Contactanos" className="see_btn" data-text="Conoce más">
+                  <a href="#Contáctanos" className="see_btn" data-text="Conoce más">
                     Conoce más
                     <span className="arrow">
                       <span className="line"></span>

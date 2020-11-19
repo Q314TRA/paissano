@@ -21,9 +21,10 @@ class SectionOne extends Component {
                     </SplitText>
                   </h2>
                   <p>
-                    Somos una alternativa al consumo recreativo responsable.
+                    {/* Somos una alternativa al consumo recreativo responsable. */}
+                    Presentamos una alternativa responsable, lícita, justa y trazable para el consumo de cannabis.
                   </p>
-                  <a href="#Contactanos" className="see_btn" data-text="Conoce màs">
+                  <a href="#Contáctanos" className="see_btn" data-text="Conoce màs">
                     Conoce más
                     <span className="arrow">
                       <span className="line"></span>

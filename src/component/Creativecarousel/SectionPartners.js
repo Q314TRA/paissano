@@ -25,10 +25,10 @@ class SectionTwo extends Component {
                   <h2 className="bold">
                     <SplitText charPoses={charPoses}>ECOSISTEMA</SplitText>
                   </h2>
-                  {/* <p>
-                    
-                  </p> */}
-                  <a href="#Contactanos" className="see_btn" data-text="Conoce màs">
+                  <p> 
+                  Hacemos parte del CLUSTER HEMP COLOMBIA, que corresponde a la gremiacion de iniciativas y empresas avocadas a transformar la percepcion y las dinamicas economicas y legales  del cannabis en Colombia, generando bienestar
+                  </p>
+                  <a href="#Contáctanos" className="see_btn" data-text="Conoce màs">
                     Conoce màs
                     <span className="arrow">
                       <span className="line"></span>
@@ -40,7 +40,7 @@ class SectionTwo extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/paissano/parthners.png")}
+                    src={require("../../image/paissano/partners_3.png")}
                     alt=""
                   />
                 </div>

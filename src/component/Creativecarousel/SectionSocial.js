@@ -20,7 +20,8 @@ class SectionTwo extends Component {
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                    Ayuda a una familia
+                    {/* Ayuda a una familia */}
+                    Genera bienestar
                       {/* Queremos generar el mayor bienestar posible a la communidad */}
                     </SplitText>
                   </h2>
@@ -28,7 +29,8 @@ class SectionTwo extends Component {
                     <SplitText charPoses={charPoses}>Frelencer</SplitText>
                   </h2> */}
                   <p>
-                  Tu planta sera cultivada por manos campesinas capacitadas en los mejores metodos de cultivo, con la mejor trazabilidad y el mejor control de caliad.
+                  {/* Tu planta sera cultivada por manos campesinas capacitadas en los mejores metodos de cultivo, con la mejor trazabilidad y el mejor control de caliad. */}
+                  Si no puedes autocultivar tu cannabis, una familia campesina capacitada en los mejores métodos de cultivo orgánico podrá realizarlo por ti, contando con trazabilidad y control de calidad en todo el proceso.
                   </p>
                   <Link to="/impacto" className="see_btn" data-text="Conoce màs">
                     Conoce màs

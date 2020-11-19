@@ -2,15 +2,28 @@ import React, { Component } from "react";
 // logo_blanco.png
 import logo_blanco from '../../image/paissano/logo_blanco.png'
 import logo from '../../image/paissano/logo.png'
+import Sticky from 'react-stickynode';
 
 
-class NavbarThree extends Component {
+class NavbarFour extends Component {
   constructor() {
     super();
     this.state = {
       isExpanded: false,
     };
+    this.scrolling = null;
   }
+
+//   componentDidMount() {
+// debugger;
+//     this.scrolling = window.addEventListener('scroll', function (e) {
+//       console.log(window.scrollY);
+//     })
+//   }
+
+//   componentWillUnmount() {
+//     window.removeEventListener('scroll', this.scrolling, true);
+//   }
 
   handleToggle() {
     this.setState({
@@ -24,10 +37,10 @@ class NavbarThree extends Component {
         <header className="header_area_one p_absoulte">
           <div className="container-fluid">
             <div className="row align-items-center">
-              <div className="col-sm-9 col-7 unset-position-sm" >
+              <div className="col-sm-9 col-7">
                 <div className="menu_left">
-                  <a href="https://paissano.app/" className="logo">
-                    <img src={logo} alt="" />
+                  <a href="/#" className="logo">
+                    <img src={logo} alt="" style={{ width: "auto", height: "90px", maxWidth: "unset" }} />
                   </a>
                 </div>
               </div>
@@ -99,4 +112,4 @@ class NavbarThree extends Component {
     );
   }
 }
-export default NavbarThree;
+export default NavbarFour;

@@ -26,9 +26,17 @@ class SectionTwo extends Component {
                     <SplitText charPoses={charPoses}>Frelencer</SplitText>
                   </h2> */}
                   <p>
-                    Contacta a los mejores cultivadores, con los mejores insumos, para disfrutar el mejor cannabis.
+                    {/* Contacta a los mejores cultivadores, con los mejores insumos, para disfrutar el mejor cannabis. */}
+                    {/* Entendemos lo que significa tu tranquilidad, por ello formamos un equipo de expertos que te apoyaran  */}
+
+                    {/* Nuestro ecosistema permite la interacción entre cultivadores y usuarios para la producción de cannabis de calidad, orgánico y usando los mejores insumos. */}
+                    Ponemos a tu disposición un ecosistema lícito y trazable para la interacción entre todos los actores necesarios, para auto cultivar cannabis de calidad.
+
+
+
+
                   </p>
-                  <a href="#Contactanos" className="see_btn" data-text="Conoce màs">
+                  <a href="#Contáctanos" className="see_btn" data-text="Conoce màs">
                     Conoce màs
                     <span className="arrow">
                       <span className="line"></span>

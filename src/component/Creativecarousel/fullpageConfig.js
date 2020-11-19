@@ -9,7 +9,7 @@ export default {
     "Tranquilidad",
     "Bienestar",
     "Activismo",
-    "Contactanos"
+    "Contáctanos"
   ],
   anchorsDeatil: {
     "Paissano": "Paissano",
@@ -17,7 +17,7 @@ export default {
     "Aliados": "Aliados",
     "Productos": "Recreativo",
     "Activismo": "Activismo",
-    "Contactanos": "Contactanos"
+    "Contáctanos": "Contáctanos"
   },
   navigation: true,
   navigationPosition: "left",

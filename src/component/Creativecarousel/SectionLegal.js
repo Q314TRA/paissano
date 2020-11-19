@@ -28,7 +28,7 @@ class SectionTwo extends Component {
                   <p>
                     Contacta a los mejores cultivadores, con los mejores insumos, para disfrutar el mejor cannabis.
                   </p>
-                  <a href="#Contactanos" className="see_btn" data-text="Conoce màs">
+                  <a href="#Contáctanos" className="see_btn" data-text="Conoce màs">
                     Conoce màs
                     <span className="arrow">
                       <span className="line"></span>

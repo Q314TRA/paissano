@@ -35,7 +35,8 @@ class SectionTwo extends Component {
                     <SplitText charPoses={charPoses}>Frelencer</SplitText>
                   </h2> */}
                   <p>
-                    Somos una alternativa al consumo responsable de cannabis, a través del ejercicio de la tercerización del autocultivo.
+                    {/* Somos una alternativa al consumo responsable de cannabis, a través del ejercicio de la tercerización del autocultivo. */}
+                    Paissano es una aplicacion que busca promover el consumo responsable de cannabis, a través del ejercicio del autocultivo local o tercerizado.
                     {/* Creamos bienestar al entregar un ecosistema justo, licito y trazable  */}
                   </p>
 
