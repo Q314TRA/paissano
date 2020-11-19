@@ -8,7 +8,7 @@ export default {
     "Recreativo",
     "Tranquilidad",
     "Bienestar",
-    "Carnaval",
+    "Activismo",
     "Contactanos"
   ],
   anchorsDeatil: {
@@ -16,7 +16,7 @@ export default {
     "Impacto": "Impacto",
     "Aliados": "Aliados",
     "Productos": "Recreativo",
-    "Carnaval": "Carnaval",
+    "Activismo": "Activismo",
     "Contactanos": "Contactanos"
   },
   navigation: true,

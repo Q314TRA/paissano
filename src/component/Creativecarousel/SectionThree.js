@@ -22,7 +22,11 @@ class SectionThree extends Component {
                     </SplitText>
                   </h2>
                   <p>
-                    Trazamos todo el proceso de cultivo, para brindar, la mayor tranquilidad posible sobre tu planta.
+                    {/* Trazamos todo el proceso de cultivo, para brindar, la mayor tranquilidad posible sobre tu planta. */}
+                    
+                    Brindamos acceso a un equipo de doctores especialistas, expertos en tratamientos con cannabis.
+
+                    {/* Trazamos todo el proceso de cultivo, para brindar, la mayor tranquilidad posible sobre tu planta. */}
                   </p>
                   <a href="#Contactanos" className="see_btn" data-text="Conoce más">
                     Conoce más
@@ -36,7 +40,7 @@ class SectionThree extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/new-page/slider_img3.jpg")}
+                    src={require("../../image/paissano/bienestar.jpg")}
                     alt=""
                   />
                 </div>

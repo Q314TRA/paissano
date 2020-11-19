@@ -42,7 +42,7 @@ class SectionTwo extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/new-page/slider_img2.jpg")}
+                    src={require("../../image/paissano/personas_2.jpg")}
                     alt=""
                   />
                 </div>

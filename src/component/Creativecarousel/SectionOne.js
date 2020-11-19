@@ -35,7 +35,7 @@ class SectionOne extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/paissano/weed_3.jpg")}
+                    src={require("../../image/paissano/recreativo.png")}
                     alt=""
                   />
                 </div>

@@ -2376,6 +2376,69 @@ h6 {
   width: 100%;
   z-index: -1;
 }
+
+.link_register{
+  /* opacity: 0; */
+  transition: all 0.2s linear;
+  color: #3A9A50;
+  font-family: "Poppins", sans-serif;
+}
+.link_register {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  line-height: 28px;
+  color: #3A9A50;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s linear;
+}
+.link_register .arrow {
+  height: 16px;
+  width: auto;
+  position: relative;
+  display: inline-flex;
+  top: -4px;
+  align-items: center;
+  margin-left: 10px;
+  transition: all 0.1s linear;
+}
+.link_register .arrow:before, .link_register .arrow:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background: #3A9A50;
+  right: 0;
+}
+.link_register .arrow:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.link_register .arrow:after {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+.link_register .arrow .line {
+  position: relative;
+  height: 2px;
+  width: 0;
+  background: #3A9A50;
+  display: inline-block;
+  vertical-align: top;
+  transition: width 0.3s linear;
+}
+.link_register:hover .arrow {
+  margin-left: 5px;
+}
+.link_register:hover{
+  color: #3A9A50;
+}
+.link_register:hover .arrow .line {
+  width: 25px;
+}
+
 /*========= End footer area css ========*/
 
 /*=========== new css============*/

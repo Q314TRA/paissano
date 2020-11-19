@@ -9,6 +9,7 @@ import { Home5 } from "./Home5";
 import { Home6 } from "./Home6";
 import { Homefrelencer } from "./Home-frelencer";
 import { Impacto } from "./Impacto";
+import { Carnabal } from "./Carnabal";
 import { Creativecarousel } from "./Creative-carousel";
 import { NotFound } from "./404";
 
@@ -22,6 +23,7 @@ class App extends Component {
             
             <Route path="/nosotros" component={Homefrelencer} />
             <Route path="/impacto" component={Impacto} />
+            <Route path="/activismo" component={Carnabal} />
             
             
             {/* <Route path="/Home2" component={Home2} />
