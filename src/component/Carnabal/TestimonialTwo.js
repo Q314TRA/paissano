@@ -20,7 +20,7 @@ class TestimonialTwo extends Component {
                                 {/* <TestimonialSliderTwo/> */}
                                 
 
-                                <a href="https://forms.gle/Akacs7HydeYtQHZ17" className="link_register" data-text="Registrate en el carnaval">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScQHnlG1P962D8UGYSlwMZxPkO1uNnvR0V0OvsoAvxK93xBwg/viewform?usp=sf_link" className="link_register" data-text="Registrate en el carnaval">
                                     Registrate en el carnaval
                                     <span className="arrow">
                                         <span className="line"></span>
