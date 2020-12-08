@@ -21,21 +21,21 @@ class Form extends React.Component {
 
     switch (name) {
       case "name":
-        errors.name = value.length === 0 ? "Name is not empty" : "";
+        errors.name = value.length === 0 ? "Nombre es requerido" : "";
         break;
       case "subject":
-        errors.subject = value.length < 5 ? "Subject must be 5 characters" : "";
+        errors.subject = value.length < 5 ? "Asuton de tener minimo 5 caracteres" : "";
         break;
       case "phone":
-        errors.phone = value.length < 5 ? "phone is not empty" : "";
+        errors.phone = value.length < 5 ? "Telefono es requerido" : "";
         break;
       case "email":
-        errors.email = value.length < 5 ? "Subject is not empty" : "";
+        errors.email = value.length < 5 ? "Correo es requerido" : "";
         let appos = value.indexOf("@");
         let dots = value.lastIndexOf(".");
 
         if (appos < 1 || dots - appos < 2) {
-          errors.email = "please enter valid email";
+          errors.email = "Ingrese un correo valido.";
         }
 
         break;
@@ -68,11 +68,11 @@ class Form extends React.Component {
       .then(
         (result) => {
           console.log(result.text);
-          alert("form is valid");
+          // alert("form is valid");
         },
         (error) => {
           console.log(error.text);
-          alert("form is invalid");
+          // alert("form is invalid");
         }
       );
   };
@@ -89,6 +89,7 @@ class Form extends React.Component {
               name="name"
               className="form-control"
               placeholder="Nombre *"
+              required
               onChange={this.handleChange}
             />
             <p>{errors.name}</p>
@@ -100,6 +101,8 @@ class Form extends React.Component {
               id="email"
               name="email"
               placeholder="Correo *"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              required
               onChange={this.handleChange}
             />
             <p>{errors.email}</p>
@@ -112,17 +115,21 @@ class Form extends React.Component {
               className="form-control"
               placeholder="Asunto *"
               onChange={this.handleChange}
+              required
               value="Quiero conocer mas"
             />
             <p>{errors.subject}</p>
           </div>
           <div className="col-lg-6">
             <input
-              type="text"
+              type="tel"
+              pattern="[0-9]{10}"
+              maxLength="10"
               className="form-control"
               id="phone"
               name="phone"
-              placeholder="Telefono *"
+              placeholder="Celular *"
+              required
               onChange={this.handleChange}
             />
             <p>{errors.phone}</p>
@@ -135,7 +142,8 @@ class Form extends React.Component {
           rows="6"
           placeholder="Escribe tu pregunta ..."
           onChange={this.handleChange}
-          value="Quiero recibir más información sobre Pissano."
+          value="Quiero recibir más información sobre Paissano."
+          required
         ></textarea>
         <button type="submit" className="btn send_btn theme_btn">
           Enviar

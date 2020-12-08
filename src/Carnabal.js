@@ -36,7 +36,7 @@ export const Carnabal = () => (
 
     <section className="portfolio_slider_area" id="portfolio" style={{ marginTop: "0", backgroundColor: "#3A9A50", position: "relative" }}>
       <div className="container">
-        <SectionTitleTwo style={{ marginBottom: '0px', color: "white", fontSize: "24pt", textTransform: "none" }} tCenter="text-center" stitle="Liberación" btitle="Entre intereses e ignoracia disfrasadas de moralidad, se apreso algo que estuvo antes que nosotros, una vez mas actuaremos como la vos de aquello que necesita ser libre." />
+        <SectionTitleTwo style={{ marginBottom: '0px', color: "white", fontSize: "24pt", textTransform: "none" }} tCenter="text-center" stitle="Liberación" btitle="Entre intereses e ignoracia disfrasadas de moralidad, se apreso algo que estuvo antes que nosotros, una vez mas actuaremos como la voz de aquello que necesita ser libre." />
         <span style={{
           position: "absolute",
           width: "100%",

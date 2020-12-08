@@ -46,9 +46,9 @@ class Contact extends Component {
                 <div className="input_form">
                   <h4>{jhonData.contacttitle}</h4>
                   <Form />
-                  <div id="success">Your message succesfully sent!</div>
+                  <div id="success">Gracias por contactarnos!</div>
                   <div id="error">
-                    Opps! There is something wrong. Please try again
+                    Opps! Hubo un error. Porfavor intetalo de nuevo
                   </div>
                 </div>
               </Reveal>
