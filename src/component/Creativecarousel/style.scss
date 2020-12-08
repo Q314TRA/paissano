@@ -348,6 +348,38 @@
         }
       }
     }
+
+    &.slider_content_banner{
+      color: #3A9A50;
+      h3{
+        font-size: 40px;
+      }
+      h2{
+        font-size: 70px;
+        color: #3A9A50;
+        font-weight: 600;
+      }
+      p{
+        font-size: 27px;
+        color: #3A9A50;
+        line-height: 2;
+      }
+      a{
+        border: none;
+        background-color: #3A9A50;
+        color: white;
+        line-height: 2;
+        padding: 0 1rem;
+        font-size: 20px;
+        margin: auto;
+        margin-left: 4rem;
+        margin-top: 3rem;
+        display: block;
+        width: fit-content;
+        border-radius: 5px;
+      }
+    }
+
   }
   .slider_image_inner {
     border-radius: 5px;

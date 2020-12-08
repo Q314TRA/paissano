@@ -2,6 +2,7 @@ export default {
   callbacks: ["onLeave"],
   // licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
   anchors: [
+    "Invita",
     "Paissano",
     "Impacto",
     "Aliados",

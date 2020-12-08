@@ -43,7 +43,7 @@ class ClientslogoTwo extends Component {
                             </div>
                         </div>
                         <div className="col-lg-6" style={{ minHeight: "400px" }}>
-                            <img src={require('../../image/paissano/carnabal_2.jpg')} alt="" />
+                            <img src={require('../../image/paissano/seguridad.jpg')} alt="" />
                         </div>
                     </div>
                 </div>

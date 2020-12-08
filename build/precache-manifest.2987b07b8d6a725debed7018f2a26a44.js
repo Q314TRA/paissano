@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8581fc9bdffd86f291b29251ee4ce8fc",
+    "revision": "72edef85e5881f1a8b579e7b159bb896",
     "url": "/index.html"
   },
   {
-    "revision": "c75be588260739f3b6e7",
+    "revision": "1019aac51ca661ed1952",
     "url": "/static/css/2.5e4c6612.chunk.css"
   },
   {
-    "revision": "522542bb21ab38476cc4",
-    "url": "/static/css/main.af380397.chunk.css"
+    "revision": "c98ddf33cab205d5621b",
+    "url": "/static/css/main.69ccb74c.chunk.css"
   },
   {
-    "revision": "c75be588260739f3b6e7",
-    "url": "/static/js/2.47ca5211.chunk.js"
+    "revision": "1019aac51ca661ed1952",
+    "url": "/static/js/2.d0aabd70.chunk.js"
   },
   {
     "revision": "9261286d2b8c1a255303d52b3798627d",
-    "url": "/static/js/2.47ca5211.chunk.js.LICENSE"
+    "url": "/static/js/2.d0aabd70.chunk.js.LICENSE"
   },
   {
-    "revision": "522542bb21ab38476cc4",
-    "url": "/static/js/main.c91d19c4.chunk.js"
+    "revision": "c98ddf33cab205d5621b",
+    "url": "/static/js/main.daf121da.chunk.js"
   },
   {
     "revision": "5454fc896364a3834368",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9adae85f821c54eab1a63fe4f53129bd",
     "url": "/static/media/bag_1.9adae85f.jpg"
+  },
+  {
+    "revision": "f2c09ffb02a0d36b35f1b2e041a6f315",
+    "url": "/static/media/banner.f2c09ffb.jpg"
   },
   {
     "revision": "d852f421924ad748c564a9271b4feda4",
@@ -504,11 +508,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tranquilidad.8ed841f4.jpg"
   },
   {
+    "revision": "1201da609af61d2b4fdd76d494e539f1",
+    "url": "/static/media/weed_1.1201da60.png"
+  },
+  {
     "revision": "3dc5d07f9f637baf110c6cc22aea18f9",
     "url": "/static/media/weed_2.3dc5d07f.jpg"
   },
   {
+    "revision": "73372280fd56761455df0df7a0ce4720",
+    "url": "/static/media/weed_2.73372280.png"
+  },
+  {
     "revision": "2265868f8454883271a2278dd45b3831",
     "url": "/static/media/weed_3.2265868f.jpg"
+  },
+  {
+    "revision": "bdbd083665f40836eb0b93687ec3fafa",
+    "url": "/static/media/weed_3.bdbd0836.png"
+  },
+  {
+    "revision": "490c0357872403c0cfa3303c0ed8d9ca",
+    "url": "/static/media/weed_4.490c0357.png"
   }
 ]);

@@ -21,7 +21,7 @@ class SectionTwo extends Component {
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      Consume sano
+                      Digno y humano
                        {/* al entregar un ecosistema justo, licito y trazable  */}
                       {/* Creamos bienestar al entregar un ecosistema justo, licito y trazable  */}
                       {/* Legalidad & Cannabis

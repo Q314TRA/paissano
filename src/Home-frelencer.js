@@ -23,10 +23,8 @@ export const Homefrelencer = () => (
 
     <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png" />
     <section className="portfolio_slider_area" id="portfolio" style={{ marginTop: "3rem" }}>
-
-
       <div className="container">
-        <SectionTitleTwo style={{ marginBottom: '0px' }} tCenter="text-center" stitle="Paissano" btitle="Consume sano" />
+        <SectionTitleTwo style={{ marginBottom: '0px' }} tCenter="text-center" stitle="Paissano" btitle="Digno y humano" />
       </div>
     </section>
 

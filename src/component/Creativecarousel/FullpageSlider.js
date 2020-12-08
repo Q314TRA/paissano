@@ -7,6 +7,8 @@ import SectionFour from "./SectionFour";
 import SectionFive from "./SectionFive";
 
 import SectionCompany from "./SectionCompany";
+import SectionBanner from "./SectionBanner";
+
 import SectionSocial from "./SectionSocial";
 import SectionPartners from "./SectionPartners";
 
@@ -39,7 +41,10 @@ const FullpageSlider = (fullpageProps) => {
 
 
 
+              <SectionBanner smallText="Photography" />
+              
               <SectionCompany smallText="Photography" />
+
               <SectionSocial smallText="Photography" />
               <SectionPartners smallText="Photography" />
 
@@ -50,6 +55,7 @@ const FullpageSlider = (fullpageProps) => {
               <SectionFive />
 
               <SectionFour jhonData={jhonData} />
+
             </React.Fragment>
           );
         }}
