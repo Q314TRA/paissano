@@ -50,7 +50,7 @@ class SectionBanner extends Component {
 
               </div>
 
-              <div className="col-lg-6" style={{ position: "relative", height: "500px", display: "flex", justifyContent:"center", alignItems:"center" }} >
+              <div className="col-lg-6 hidde-sm" style={{ position: "relative", height: "500px", display: "flex", justifyContent:"center", alignItems:"center" }} >
                 <img style={{
                   objectFit:"cover",
                   width: "100%"
