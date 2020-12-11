@@ -90,10 +90,10 @@ class Modal extends Component {
 
 
 
-    console.log(
-      this.state.name,
-      this.state.telefono
-    )
+    // console.log(
+    //   this.state.name,
+    //   this.state.telefono
+    // )
 
 
     this.db.collection("personas").add({

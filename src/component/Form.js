@@ -67,11 +67,11 @@ class Form extends React.Component {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
           // alert("form is valid");
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
           // alert("form is invalid");
         }
       );
