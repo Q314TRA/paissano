@@ -8,18 +8,27 @@ import weed_1 from '../../assets/weed_1.png'
 import weed_2 from '../../assets/weed_2.png'
 import weed_3 from '../../assets/weed_3.png'
 import weed_4 from '../../assets/weed_4.png'
+import seguridad from '../../image/paissano/seguridad.jpg'
 
 const charPoses = {};
 
 class SectionBanner extends Component {
   render() {
+    const { openModal } = this.props;
+
+
     return (
       <div className="section fp-section fp-tabble">
         <div className="slider_container">
           <div className="container">
             <div className="row align-items-center ">
 
-              <div className="col-lg-7 slider_content slider_content_banner" >
+              <div className="col-lg-6 slider_content slider_content_banner" >
+
+                <h6>
+                  <span className="br"></span>
+                  <SplitText charPoses={charPoses}>Paissano invita</SplitText>
+                </h6>
 
                 <h3>
                   <SplitText charPoses={charPoses}>Carnaval cannabico 2020</SplitText>
@@ -31,18 +40,21 @@ class SectionBanner extends Component {
                     <li>100 tapabocas cannabicos</li>
                   </ul>
                 </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScQHnlG1P962D8UGYSlwMZxPkO1uNnvR0V0OvsoAvxK93xBwg/viewform?usp=sf_link">
+                {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScQHnlG1P962D8UGYSlwMZxPkO1uNnvR0V0OvsoAvxK93xBwg/viewform?usp=sf_link">
+                  Inscribete
+                </a> */}
+                <a onClick={openModal}>
                   Inscribete
                 </a>
 
 
               </div>
 
-              <div className="col-lg-5" style={{ position: "relative", height: "500px" }} >
-                <img alt="weed_1" style={{ width: "230px", position: "absolute", left: "2rem", top: "2rem" }} src={weed_1}></img>
-                <img alt="weed_2" style={{ width: "150px", position: "absolute", right: "2rem", top: "200px" }} src={weed_2}></img>
-                <img alt="weed_3" style={{ width: "120px", position: "absolute", left: "125px", bottom: "2rem" }} src={weed_3}></img>
-                {/* <img alt="weed_4" style={{width:"130px", position:"absolute", right: "0", bottom:"0"}} src={weed_4}></img> */}
+              <div className="col-lg-6" style={{ position: "relative", height: "500px", display: "flex", justifyContent:"center", alignItems:"center" }} >
+                <img style={{
+                  objectFit:"cover",
+                  width: "100%"
+                }} alt="weed_3" src={seguridad}></img> 
               </div>
 
               {/* <div className="col-lg-6">

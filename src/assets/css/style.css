@@ -2459,3 +2459,20 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.bannerImg{
+  margin-top:  120px;
+}
+
+.size-image{
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px){
+  .bannerImg{
+    margin-top: calc(3rem + 120px);
+  }
+}

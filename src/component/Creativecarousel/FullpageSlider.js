@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import SectionOne from "./SectionOne";
 import SectionTwo from "./SectionTwo";
@@ -19,12 +19,22 @@ import jhonData from "../jhonData";
 import "./style.scss";
 
 
+import Modal from './modal'
+
 
 
 const FullpageSlider = (fullpageProps) => {
 
-  // const isMobile = window?.innerWidth <= 767;
+  const [isOpen, openModal] = useState(false);
 
+  // const isMobile = window?.innerWidth <= 767;
+  const openModalFn = () => {
+    openModal(true)
+  }
+
+  const closeModalFn = () => {
+    openModal(false)
+  }
 
   return (
     <div className="scroll_page">
@@ -41,8 +51,8 @@ const FullpageSlider = (fullpageProps) => {
 
 
 
-              <SectionBanner smallText="Photography" />
-              
+              <SectionBanner smallText="Photography" openModal={openModalFn} />
+
               <SectionCompany smallText="Photography" />
 
               <SectionSocial smallText="Photography" />
@@ -122,6 +132,10 @@ const FullpageSlider = (fullpageProps) => {
           <li style={{ display: "none" }} ></li>
         </ul>
       </div>
+
+      {isOpen &&
+        <Modal closeModalFn={closeModalFn} />
+      }
     </div>
   )
 };
